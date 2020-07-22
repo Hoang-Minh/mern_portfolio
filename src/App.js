@@ -4,6 +4,7 @@ import { CssBaseline } from "@material-ui/core";
 import Home from "./components/Home";
 import "./App.css";
 import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CssBaseline></CssBaseline>
       <Route exact path="/" component={Home}></Route>
       <Route exact path="/resume" component={Resume}></Route>
+      <Route exact path="/portfolio" component={Portfolio}></Route>
     </Fragment>
   );
 }
