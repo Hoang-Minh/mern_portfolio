@@ -22,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-function Project({ alt, image, title, content, link }) {
+function Project({ alt, image, title, content, link, code }) {
   const classes = useStyles();
 
   return (
@@ -45,8 +45,12 @@ function Project({ alt, image, title, content, link }) {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary">
-            Share
+          <Button
+            size="small"
+            color="primary"
+            onClick={() => (window.location.href = `${code}`)}
+          >
+            Source Code
           </Button>
           <Button
             size="small"

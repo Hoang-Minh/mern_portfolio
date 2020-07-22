@@ -10,6 +10,7 @@ import chatApp from "../images/chatApp.png";
 import adviceApp from "../images/adviceApp.png";
 import weatherApp from "../images/weatherApp.png";
 import youtubeApp from "../images/youtubeApp.png";
+import portfolioApp from "../images/portfolioApp.png";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -35,10 +36,7 @@ function Portfolio() {
           title="Movie App"
           link="https://agile-forest-75094.herokuapp.com/"
           code="https://github.com/Hoang-Minh/mern_movie_app"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="A movie app that is using themoviedb api to allow users to interact with other users through comments on their favorite movies. This application is implementing modern MERN stack with JSON web token for security. Beautiful UI with inifinite loop when browsing movies."
         ></Project>
         <Project
           alt="Survey Email App"
@@ -46,10 +44,7 @@ function Portfolio() {
           title="Survey App"
           link="https://cryptic-sea-54086.herokuapp.com/"
           code="https://github.com/Hoang-Minh/Emaily"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="This app allow users to create their own survey to send to a list of recipients to ask them about their feedbacks on a certain services so they can improve it in the future. Built with MERN stack, and logged in with Google OAuth 2.0 to increase security for the app."
         ></Project>
 
         <Project
@@ -58,10 +53,7 @@ function Portfolio() {
           title="Covid 19 Stats"
           link="https://nameless-taiga-47211.herokuapp.com/"
           code="https://github.com/Hoang-Minh/covid-19-tracking"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="Display a graph that quickly shows how many people are infected with Covid 19 on global scale, number of people who get recovered versus deaths. Also, so chart with different number based on country throughout the world"
         ></Project>
 
         <Project
@@ -70,10 +62,7 @@ function Portfolio() {
           title="Chat App"
           link="https://nameless-taiga-47211.herokuapp.com/"
           code="https://github.com/Hoang-Minh/chat_app"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="Allow users to chat with each other in real time. This app is implementing socket.io to make the interaction smoothly and provides good user interaction. Users can exchange their texts, also send their image or video"
         ></Project>
 
         <Project
@@ -82,10 +71,7 @@ function Portfolio() {
           title="Simple Advice App"
           link="https://hopeful-benz-d6952b.netlify.app/"
           code="https://github.com/Hoang-Minh/free-advice-app-react"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="A really simple advice that generates random advice/funny/inspiring quotes that hopes can cheer someone up on their rough day !!!"
         ></Project>
 
         <Project
@@ -94,10 +80,7 @@ function Portfolio() {
           title="PWA Weather App"
           link="https://quizzical-galileo-95cd9d.netlify.app/"
           code="https://github.com/Hoang-Minh/weather-pwa-react"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="First time building a progressive web app. This app will display the current temperature based on user input - city, country or their location."
         ></Project>
 
         <Project
@@ -106,10 +89,16 @@ function Portfolio() {
           title="Simple Youtube Cloner"
           link="https://unruffled-gates-5c1209.netlify.app/"
           code="https://github.com/Hoang-Minh/YoutubeClone"
-          content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-          architecto quo labore, amet, maxime illum exercitationem velit
-          id facere placeat veritatis! Iusto architecto sunt possimus
-          illum aliquam itaque, veniam sapiente."
+          content="A really simple youtube cloner where user can search for their favorite movie. "
+        ></Project>
+
+        <Project
+          alt="Portfolio Website"
+          image={portfolioApp}
+          title="Portfolio Website"
+          link="https://unruffled-gates-5c1209.netlify.app/"
+          code="https://github.com/Hoang-Minh/mern_portfolio.git"
+          content="A beautiful portfolio that you are seeing right now is built with React and Material UI"
         ></Project>
       </Grid>
     </Box>
