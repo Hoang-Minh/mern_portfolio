@@ -34,6 +34,7 @@ function Portfolio() {
           image={movieApp}
           title="Movie App"
           link="https://agile-forest-75094.herokuapp.com/"
+          code="https://github.com/Hoang-Minh/mern_movie_app"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
@@ -44,6 +45,7 @@ function Portfolio() {
           image={emailMe}
           title="Survey App"
           link="https://cryptic-sea-54086.herokuapp.com/"
+          code="https://github.com/Hoang-Minh/Emaily"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
@@ -55,6 +57,7 @@ function Portfolio() {
           image={covid19}
           title="Covid 19 Stats"
           link="https://nameless-taiga-47211.herokuapp.com/"
+          code="https://github.com/Hoang-Minh/covid-19-tracking"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
@@ -66,6 +69,7 @@ function Portfolio() {
           image={chatApp}
           title="Chat App"
           link="https://nameless-taiga-47211.herokuapp.com/"
+          code="https://github.com/Hoang-Minh/chat_app"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
@@ -77,6 +81,7 @@ function Portfolio() {
           image={adviceApp}
           title="Simple Advice App"
           link="https://hopeful-benz-d6952b.netlify.app/"
+          code="https://github.com/Hoang-Minh/free-advice-app-react"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
@@ -88,6 +93,7 @@ function Portfolio() {
           image={weatherApp}
           title="PWA Weather App"
           link="https://quizzical-galileo-95cd9d.netlify.app/"
+          code="https://github.com/Hoang-Minh/weather-pwa-react"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
@@ -99,6 +105,7 @@ function Portfolio() {
           image={youtubeApp}
           title="Simple Youtube Cloner"
           link="https://unruffled-gates-5c1209.netlify.app/"
+          code="https://github.com/Hoang-Minh/YoutubeClone"
           content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
           architecto quo labore, amet, maxime illum exercitationem velit
           id facere placeat veritatis! Iusto architecto sunt possimus
