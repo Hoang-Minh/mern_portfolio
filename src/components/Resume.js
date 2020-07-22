@@ -120,10 +120,114 @@ function Resume() {
             >
               Web Design
             </Typography>
-            <Typography variant="body1" align="center">
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
               Company name where worked
             </Typography>
-            <Typography variant="subtitle1" align="center">
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
+              totam veritatis fuga commodi numquam magnam dolor dicta iure
+              praesentium natus maxime voluptates iusto.
+            </Typography>
+          </Box>
+          <Typography
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            variant="h2"
+          >
+            2015
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              className={classes.subHeading}
+              variant="h5"
+              align="center"
+            >
+              Web Design
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
+              totam veritatis fuga commodi numquam magnam dolor dicta iure
+              praesentium natus maxime voluptates iusto.
+            </Typography>
+          </Box>
+          <Typography
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            variant="h2"
+          >
+            2015
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              className={classes.subHeading}
+              variant="h5"
+              align="center"
+            >
+              Web Design
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
+              totam veritatis fuga commodi numquam magnam dolor dicta iure
+              praesentium natus maxime voluptates iusto.
+            </Typography>
+          </Box>
+          <Typography
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            variant="h2"
+          >
+            2015
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              className={classes.subHeading}
+              variant="h5"
+              align="center"
+            >
+              Web Design
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Company name where worked
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Similique aspernatur voluptatem itaque ut quo voluptas, vitae
               totam veritatis fuga commodi numquam magnam dolor dicta iure
