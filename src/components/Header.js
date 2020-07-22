@@ -1,14 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import {
-  Typography,
-  Box,
-  Grid,
-  Avatar,
-  ThemeProvider,
-} from "@material-ui/core";
+import { Typography, Box, Grid, Avatar } from "@material-ui/core";
 import Typed from "react-typed";
-import avatar from "../avatar.png";
+import avatar from "../avatar.jpg";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -47,12 +41,20 @@ function Header() {
         ></Avatar>
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["Minh Nguyen"]} typeSpeed={40}></Typed>
+        <Typed
+          strings={["Hi, I am Minh Nguyen. Welcome to my Portfolio website"]}
+          typeSpeed={40}
+        ></Typed>
       </Typography>
       <br></br>
       <Typography className={classes.subtitle} variant="h5">
         <Typed
-          strings={["Full Stack Web Developer", "MERN Stack"]}
+          strings={[
+            "Full Stack Web Developer",
+            "MERN Stack",
+            "Software Engineer",
+            "Automation Engineer",
+          ]}
           typeSpeed={40}
           backSpeed={60}
           loop

@@ -22,7 +22,7 @@ import {
   Apps,
   ContactMail,
 } from "@material-ui/icons";
-import avatar from "../avatar.png";
+import avatar from "../avatar.jpg";
 import Footer from "./Footer";
 
 const useStyles = makeStyles((theme) => ({
