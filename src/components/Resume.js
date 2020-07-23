@@ -110,7 +110,7 @@ function Resume() {
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
             variant="h2"
           >
-            2015
+            2016 - Present
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -118,31 +118,31 @@ function Resume() {
               variant="h5"
               align="center"
             >
-              Web Design
+              Full Stack Developer
             </Typography>
             <Typography
               variant="body1"
               align="center"
               style={{ color: "tomato" }}
             >
-              Company name where worked
+              Home
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "white" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
-              totam veritatis fuga commodi numquam magnam dolor dicta iure
-              praesentium natus maxime voluptates iusto.
+              Built a bunch of projects, mostly in MERN stack to improve my
+              skill sets since I have been transitioned myself into a full stack
+              developer. Able to write code both in front end and backend.
+              Please see the Portfolio section for more updates.
             </Typography>
           </Box>
           <Typography
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
             variant="h2"
           >
-            2015
+            2018 – July 2020
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -150,31 +150,33 @@ function Resume() {
               variant="h5"
               align="center"
             >
-              Web Design
+              Software Enginer Developer in Test - SDET
             </Typography>
             <Typography
               variant="body1"
               align="center"
               style={{ color: "tomato" }}
             >
-              Company name where worked
+              CCC Information Services
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "white" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
-              totam veritatis fuga commodi numquam magnam dolor dicta iure
-              praesentium natus maxime voluptates iusto.
+              Got result from Azure Dev Ops and analyze them Used appium .Net
+              framework to develop and automate test cases for Android and IOS
+              platform Worked with MS test to write test for API testing and
+              micro services Managed and updated our automation website, built
+              with MEN stack, to help out our daily task, such as query build,
+              executing build and display result on dashboard
             </Typography>
           </Box>
           <Typography
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
             variant="h2"
           >
-            2015
+            2016 - April 2018
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -182,31 +184,29 @@ function Resume() {
               variant="h5"
               align="center"
             >
-              Web Design
+              Software Automation Engineer
             </Typography>
             <Typography
               variant="body1"
               align="center"
               style={{ color: "tomato" }}
             >
-              Company name where worked
+              Schneider Electric
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "white" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
-              totam veritatis fuga commodi numquam magnam dolor dicta iure
-              praesentium natus maxime voluptates iusto.
+              Identified defects based on reading user stories or new defect
+              story. Managed and automated the automation framework in .NET
             </Typography>
           </Box>
           <Typography
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
             variant="h2"
           >
-            2015
+            2014 - March 2016
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -214,7 +214,7 @@ function Resume() {
               variant="h5"
               align="center"
             >
-              Web Design
+              Intern - Software Engineer
             </Typography>
             <Typography
               variant="body1"
@@ -228,10 +228,8 @@ function Resume() {
               align="center"
               style={{ color: "white" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Similique aspernatur voluptatem itaque ut quo voluptas, vitae
-              totam veritatis fuga commodi numquam magnam dolor dicta iure
-              praesentium natus maxime voluptates iusto.
+              Worked with other full time developers to mange and develop our
+              software application in .Net
             </Typography>
           </Box>
         </Box>
