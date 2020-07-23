@@ -26,7 +26,7 @@ function Project({ alt, image, title, content, link, code }) {
   const classes = useStyles();
 
   return (
-    <Grid item xs={12} sm={8} md={6}>
+    <Grid item xs={12} sm={8} md={4}>
       <Card className={classes.cardContainer}>
         <CardActionArea>
           <CardMedia

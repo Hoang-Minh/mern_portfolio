@@ -11,6 +11,7 @@ import adviceApp from "../images/adviceApp.png";
 import weatherApp from "../images/weatherApp.png";
 import youtubeApp from "../images/youtubeApp.png";
 import portfolioApp from "../images/portfolioApp.png";
+import campground from "../images/campground.png";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -30,6 +31,14 @@ function Portfolio() {
     <Box component="div" className={classes.mainContainer}>
       <Navbar></Navbar>
       <Grid container justify="center">
+        <Project
+          alt="YelpCampground"
+          image={campground}
+          title="YelpCampground"
+          link="https://stark-waters-27841.herokuapp.com/"
+          code="https://github.com/Hoang-Minh/YelpCamp"
+          content="Looking for a beautiful campground in the US ? Look no futher. This website is built with mongodb, express and nodejs. Implemented with Google OAuth2, user would need to verify through email after registration before authorizing to access resource."
+        ></Project>
         <Project
           alt="Movie App"
           image={movieApp}
