@@ -96,7 +96,7 @@ function Portfolio() {
           alt="Portfolio Website"
           image={portfolioApp}
           title="Portfolio Website"
-          link="https://unruffled-gates-5c1209.netlify.app/"
+          link="https://romantic-wright-07054e.netlify.app/"
           code="https://github.com/Hoang-Minh/mern_portfolio.git"
           content="A beautiful portfolio that you are seeing right now is built with React and Material UI"
         ></Project>
