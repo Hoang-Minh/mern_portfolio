@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import { TextField, Typography, Box, Grid, Button } from "@material-ui/core";
+import {
+  TextField,
+  Typography,
+  Box,
+  Grid,
+  Button,
+  TextareaAutosize,
+} from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
 import axios from "axios";
 import Navbar from "./Navbar";
@@ -44,6 +51,8 @@ const Contacts = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
+  const [message, setMessage] = useState("");
+  const [note, setNote] = useState(null);
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -57,6 +66,10 @@ const Contacts = () => {
     setCompany(event.target.value);
   };
 
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+  };
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     console.log(name, email, company);
@@ -67,14 +80,34 @@ const Contacts = () => {
       email,
       company,
     });
-    console.log(response);
+
+    setNote(response.data.message);
+  };
+
+  const renderNote = () => {
+    if (note) {
+      return (
+        <Typography
+          variant="subtitle2"
+          style={{
+            color: "tomato",
+            textAlign: "center",
+            textTransform: "uppercase",
+          }}
+        >
+          {note}
+        </Typography>
+      );
+    }
   };
 
   return (
     <Box component="div" style={{ background: "#233", height: "100vh" }}>
       <Navbar></Navbar>
+
       <Grid container justify="center">
-        <Box component="div">
+        <Grid item xs={12} md={2}></Grid>
+        <Grid item xs={12} md={8}>
           <form
             className={classes.form}
             onSubmit={(event) => handleSubmit(event)}
@@ -87,9 +120,12 @@ const Contacts = () => {
                 textTransform: "uppercase",
               }}
             >
-              Hire or contact me...
+              Contact Me
             </Typography>
+            {renderNote()}
+
             <InputField
+              required={true}
               fullWidth={true}
               label="Name"
               variant="outlined"
@@ -101,6 +137,7 @@ const Contacts = () => {
             ></InputField>
             <br></br>
             <InputField
+              required={true}
               fullWidth={true}
               label="Email"
               variant="outlined"
@@ -122,6 +159,15 @@ const Contacts = () => {
               onChange={(event) => handleCompanyChange(event)}
             ></InputField>
             <br></br>
+
+            <TextareaAutosize
+              aria-label="empty textarea"
+              placeholder="Your Message"
+              style={{ width: "100%", height: "50%" }}
+              rowsMin={8}
+              value={message}
+              onChange={(event) => handleMessageChange(event)}
+            />
             <Button
               className={classes.button}
               variant="outlined"
@@ -132,7 +178,8 @@ const Contacts = () => {
               Contact Me
             </Button>
           </form>
-        </Box>
+        </Grid>
+        <Grid item xs={12} md={2}></Grid>
       </Grid>
     </Box>
   );

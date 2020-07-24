@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
 const mailerHelper = require("./util/mailerHelper");
@@ -19,13 +20,13 @@ app.post("/api/send_feedback", async (req, res) => {
 
   const mailOptions = {
     to: req.body.email,
-    from: "taolaobidaomail@gmail.com",
+    from: process.env.USER_EMAIL,
     subject: "Thank You",
     text: content,
   };
 
   await mailerHelper.sendMail(mailOptions);
-  res.json({ message: "Thank you !!!" });
+  res.json({ message: "Your Message has been received. Thank You." });
 });
 
 app.listen(PORT, () => {
