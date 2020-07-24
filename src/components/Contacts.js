@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import { TextField, Typography, Box, Grid, Button } from "@material-ui/core";
 import SendIcon from "@material-ui/icons/Send";
+import axios from "axios";
 import Navbar from "./Navbar";
 
 const useStyles = makeStyles((theme) => ({
@@ -56,11 +57,13 @@ const Contacts = () => {
     setCompany(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     console.log(name, email, company);
 
     // call axios in here
+    const response = await axios.get("/api");
+    console.log(response);
   };
 
   return (
