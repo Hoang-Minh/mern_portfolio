@@ -62,7 +62,11 @@ const Contacts = () => {
     console.log(name, email, company);
 
     // call axios in here
-    const response = await axios.get("/api");
+    const response = await axios.post("/api/send_feedback", {
+      name,
+      email,
+      company,
+    });
     console.log(response);
   };
 
