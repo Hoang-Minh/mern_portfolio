@@ -198,8 +198,73 @@ function Resume() {
               align="center"
               style={{ color: "white" }}
             >
-              Identified defects based on reading user stories or new defect
-              story. Managed and automated the automation framework in .NET
+              Experienced using GitHub, TFS or similar source control systems.
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Skilled with Powershell, Python, windows command line
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Maintained the design and maintenance of software system
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Worked with QA and test automation software is a plus (coded UI
+              framework)
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Managed vms on vcloud using for testing environment
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Built utilities if needed to automate/simplify daily work.
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Maintained headless test framework using nodejs technology
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Experienced in Microsoft SQL databases, development and
+              troubleshooting
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Worked experience with application lifecycle methodologies in
+              agile process
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Helped people in team to run private builds and analyze result.
             </Typography>
           </Box>
           <Typography
@@ -221,15 +286,65 @@ function Resume() {
               align="center"
               style={{ color: "tomato" }}
             >
-              Company name where worked
+              Invensys (later merged to Schenider Electric)
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
               style={{ color: "white" }}
             >
-              Worked with other full time developers to mange and develop our
-              software application in .Net
+              Worked with QA team lead on stories/task for each sprint/PSI
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Analyzed daily build's result and raised defects if needed
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Wrote MTM test cases and automated them
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Created UI keywords needed in the test framework
+            </Typography>
+          </Box>
+
+          <Typography
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+            variant="h2"
+          >
+            2012 - December 2015
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography
+              className={classes.subHeading}
+              variant="h5"
+              align="center"
+            >
+              California State University, Fullerton
+            </Typography>
+            <Typography
+              variant="body1"
+              align="center"
+              style={{ color: "tomato" }}
+            >
+              Graduated in Computer Science major
+            </Typography>
+            <Typography
+              variant="subtitle1"
+              align="center"
+              style={{ color: "white" }}
+            >
+              Graduated with 3.2 GPA
             </Typography>
           </Box>
         </Box>
