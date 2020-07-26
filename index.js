@@ -23,16 +23,24 @@ if (process.env.NODE_ENV === "production") {
 app.post("/api/send_feedback", async (req, res) => {
   console.log(req.body);
 
-  const content = `Hi ${req.body.name}. Thank you for contacting me.`;
+  const thankYou = `Hi ${req.body.name}. Thank you for contacting me.`;
 
-  const mailOptions = {
+  const mailOptionsToSender = {
     to: req.body.email,
     from: process.env.USER_EMAIL,
     subject: "Thank You",
-    text: content,
+    text: thankYou,
   };
 
-  await mailerHelper.sendMail(mailOptions);
+  const mailOptionsToMe = {
+    to: process.env.USER_EMAIL,
+    from: req.body.email,
+    subject: "From my Portfolio",
+    text: req.body.message,
+  };
+
+  await mailerHelper.sendMail(mailOptionsToSender);
+  await mailerHelper.sendMail(mailOptionsToMe);
   res.json({ message: "Your Message has been received. Thank You." });
 });
 

@@ -79,6 +79,7 @@ const Contacts = () => {
       name,
       email,
       company,
+      message,
     });
 
     setNote(response.data.message);
