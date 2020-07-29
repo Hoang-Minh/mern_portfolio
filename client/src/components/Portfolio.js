@@ -43,7 +43,7 @@ function Portfolio() {
           alt="Movie App"
           image={movieApp}
           title="Movie App"
-          link="https://agile-forest-75094.herokuapp.com/"
+          link="https://boiling-headland-43568.herokuapp.com/"
           code="https://github.com/Hoang-Minh/mern_movie_app"
           content="A movie app that is using themoviedb api to allow users to interact with other users through comments on their favorite movies. This application is implementing modern MERN stack with JSON web token for security. Beautiful UI with inifinite loop when browsing movies."
         ></Project>
