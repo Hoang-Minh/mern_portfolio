@@ -7,6 +7,7 @@ import weatherApp from "../images/weatherApp.png";
 import youtubeApp from "../images/youtubeApp.png";
 import portfolioApp from "../images/portfolioApp.png";
 import campground from "../images/campground.png";
+import travelLog from "../images/travelLog.png";
 
 const projects = [
   {
@@ -35,6 +36,15 @@ const projects = [
     code: "https://github.com/Hoang-Minh/Emaily",
     content:
       "This app allow users to create their own survey to send to a list of recipients to ask them about their feedbacks on a certain services so they can improve it in the future. Built with MERN stack, and logged in with Google OAuth 2.0 to increase security for the app.",
+  },
+  {
+    alt: "Travel Log",
+    image: travelLog,
+    title: "Travel Log",
+    link: "https://warm-thicket-63481.herokuapp.com/",
+    code: "https://github.com/Hoang-Minh/mern_travel_blog",
+    content:
+      "Pack your suitecase and go. Log your travel log in a beautiful map. Express your comments and show the world where you have been to. Once day, you can look back and start writing about your travel experience.",
   },
   {
     alt: "Covid 19 Stats",
