@@ -23,9 +23,10 @@ function Portfolio() {
     <Box component="div" className={classes.mainContainer}>
       <Navbar></Navbar>
       <Grid container justify="center">
-        {projects.map((project) => (
+        {projects.map((project, key) => (
           <Project
-            alt={projects.alt}
+            key={key}
+            alt={project.alt}
             image={project.image}
             title={project.title}
             link={project.link}
