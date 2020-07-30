@@ -45,18 +45,10 @@ function Project({ alt, image, title, content, link, code }) {
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button
-            size="small"
-            color="primary"
-            onClick={() => (window.location.href = `${code}`)}
-          >
+          <Button target="_blank" size="small" color="primary" href={code}>
             Source Code
           </Button>
-          <Button
-            size="small"
-            color="primary"
-            onClick={() => (window.location.href = `${link}`)}
-          >
+          <Button target="_blank" size="small" color="primary" href={link}>
             Live Demo
           </Button>
         </CardActions>
@@ -65,5 +57,4 @@ function Project({ alt, image, title, content, link, code }) {
   );
 }
 
-//https://agile-forest-75094.herokuapp.com/
 export default Project;
