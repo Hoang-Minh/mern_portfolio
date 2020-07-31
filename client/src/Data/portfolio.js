@@ -8,10 +8,20 @@ import youtubeApp from "../images/youtubeApp.png";
 import portfolioApp from "../images/portfolioApp.png";
 import campground from "../images/campground.png";
 import travelLog from "../images/travelLog.png";
+import phoneStore from "../images/phoneStore.png";
 
 const projects = [
   {
-    alt: "YelpCampground",
+    alt: "Ecommerce Phone Store",
+    image: phoneStore,
+    title: "Ecommerce Phone Store",
+    link: "https://stoic-mayer-bc5d7a.netlify.app/",
+    code: "https://github.com/Hoang-Minh/react_phone_store",
+    content:
+      "An ecommerce phone store that allow user to pay their transaction by using their paypal account.",
+  },
+  {
+    alt: "Yelp Campground",
     image: campground,
     title: "YelpCampground",
     link: "https://stark-waters-27841.herokuapp.com/",
