@@ -9,8 +9,18 @@ import portfolioApp from "../images/portfolioApp.png";
 import campground from "../images/campground.png";
 import travelLog from "../images/travelLog.png";
 import phoneStore from "../images/phoneStore.png";
+import bookStore from "../images/bookStore.png";
 
 const projects = [
+  {
+    alt: "Ecommerce Book Store",
+    image: bookStore,
+    title: "Ecommerce Book Store",
+    link: "https://immense-taiga-68496.herokuapp.com/",
+    code: "https://github.com/Hoang-Minh/mern_book_ecommerce",
+    content:
+      "A fully functional ecommerce book store that uses latest hooks along with React Node and Mongo DB. User has a choice to add books into their card and make payment with Paypal or any credit cards on their own.",
+  },
   {
     alt: "Ecommerce Phone Store",
     image: phoneStore,
